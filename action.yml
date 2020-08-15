@@ -1,0 +1,13 @@
+name: 'Area of Square'
+description: 'Finding the area of Square'
+inputs:
+  side:  # id of input
+    description: 'Side of the Square'
+    required: true
+    default: 0
+outputs:
+  area: # id of output
+    description: 'Area of the Square'
+runs:
+  using: 'node12'
+  main: 'index.js'
